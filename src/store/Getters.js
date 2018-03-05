@@ -1,0 +1,2 @@
+//root Getters
+export default {}

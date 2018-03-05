@@ -1,0 +1,3 @@
+//root Mutations
+
+export default {}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>datev</title>
+    <link rel="stylesheet" type="text/css" href="static/css/common.css"/>
+    <script type="text/javascript">
+      setsize();
+      resetsize();
+      function setsize() {
+        var html = document.getElementsByTagName("html")[0];
+        html.style.fontSize = (html.clientWidth / 19.2)+'px';  //以分辨率1920*980为基准
+        html.style.width = '100%';
+        html.style.height = '100%';
+      }
+      function resetsize () {
+        window.onresize = function(){
+          setsize();
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
